@@ -13,11 +13,13 @@ menorNumero = min(n1, n2)
 
 print(" ")
 print("=== Resultado ===")
+print(" ")
 print(f"A SOMA dos números é = {soma}")
 print(f"A MÉDIA dos números é = {media}")
 print(f"O PRODUTO dos números é = {produto}")
 print(f"O MAIOR número é = {maiorNumero}")
 print(f"O MENOR número é = {menorNumero}")
+
 if n1 == n2:
     print(f"Os números são IGUAIS")
 else:
