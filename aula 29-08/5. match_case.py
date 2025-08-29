@@ -1,7 +1,7 @@
 import os
 os.system("cls")
 
-dia = input("Digite o um número para o dia da semana: ")
+dia = int(input("Digite o um número para o dia da semana: "))
 
 match dia:
     case 1:
@@ -18,3 +18,7 @@ match dia:
         print("Sexta")
     case 7:
         print("Sábado")
+    case _:
+        print("Opção inválida")
+
+print("FIM")
