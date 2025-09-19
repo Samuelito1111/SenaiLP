@@ -47,7 +47,7 @@ while True:
     valorTotal += valor
     
 
-    outroPedido = input('Deseja adicionar mais algum prato? (s/n)').upper().strip()
+    outroPedido = input('Deseja adicionar mais algum prato? (S/N)').upper().strip()
     
     if outroPedido == "N":
         break

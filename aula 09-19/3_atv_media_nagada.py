@@ -5,14 +5,12 @@ soma = 0
 quantidadeNotas = 0
 
 while True:
-    nota = float(input('Informe uma nota: '))
+    nota = int(input('Informe uma nota: '))
+    if nota < 0:
+        break
     quantidadeNotas += 1
     soma += nota
     
-    outraNota = input('Deseja informar mais uma nota? (S/N)').upper().strip()
-    
-    if outraNota == "N":
-        break
 media = soma/quantidadeNotas
 
 print(f'\nMédia: {media}')
