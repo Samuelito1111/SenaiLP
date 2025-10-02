@@ -6,8 +6,9 @@ NSTRUÇÕES PARA USAR STREAMLIT
 1. Abra VSCode na pasta Downloads
 
 2. Digite no terminal do VSCode os comandos:
+```
 python -m venv venv
-
+```
 3. Ative o ambiente virtual:
 v TAB
 s TAB
@@ -15,8 +16,9 @@ a TAB
 ENTER
 
 4. Instale o Streamlit:
+```
 pip install streamlit
-
+```
 ## Início da aula.
 
 1) Fazer login no GitHub no navegador de internet
