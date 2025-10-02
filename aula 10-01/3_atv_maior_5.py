@@ -12,7 +12,7 @@ for i in range(QUANTIDADE_NUMEROS):
 maiorNumero = max(numeros)
 menorNumero = min(numeros)
 
-print('\nResultado\n')
+print('\n== Resultado ==\n')
 
 for i in range(QUANTIDADE_NUMEROS):
     print(f'{i+1}ª número: {numeros[i]}')

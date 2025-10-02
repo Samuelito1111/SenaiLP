@@ -12,13 +12,16 @@ for i in range(QUANTIDADE_NOTAS):
 media = sum(notas)/len(notas)
 
 if media >= 7:
-    print('Situação: Aprovado')
+    resultado = 'Aprovado'
 elif media >= 5:
-    print('Situação: Recuperação')
+    resultado = 'Recuperação'
 else:
-    print('Situação: Reprovado')
+    resultado = 'Reprovado'
+
+print('\n== Resultado ==\n')
 
 for i in range(QUANTIDADE_NOTAS):
     print(f'\n{i+1}ª Nota: {notas[i]}')
 
 print(f'\nMédia: {media}')
+print(f'\nSituação: {resultado}')

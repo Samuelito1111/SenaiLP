@@ -11,7 +11,9 @@ for i in range(QUANTIDADE_NOTAS):
 
 media = sum(notas)/len(notas)
 
+print('\n== Resultado ==\n')
+
 for i in range(QUANTIDADE_NOTAS):
-    print(f'\n{i+1}ª Nota: {notas[i]}')
+    print(f'{i+1}ª Nota: {notas[i]}')
 
 print(f'\nMédia: {media}')

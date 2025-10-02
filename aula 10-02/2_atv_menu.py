@@ -1,7 +1,10 @@
 import os
 os.system("cls")
 
-valorTotal = 0
+pedido_Nomes = []
+pedido_Valores = []
+pedidos = 0
+
 while True:
     print("""
     ================ MENU =================
@@ -13,7 +16,6 @@ while True:
     |   5    |    Pão com Ovo   | R$5,00  |
     =======================================
     """)
-
 
     while True:
         opcao = int(input("\nInforme qual o código do prato que você deseja: "))
@@ -44,15 +46,22 @@ while True:
             nome = "Pão com Ovo"
             valor = 5
     
-    valorTotal += valor
+    outroPedido = input('Deseja adicionar mais algum prato? (S/N): ').upper().strip()
     
-    outroPedido = input('Deseja adicionar mais algum prato? (S/N)').upper().strip()
+    pedido_Nomes.append(nome)
+    pedido_Valores.append(valor)
+    
+    pedidos += 1
     
     if outroPedido == "N":
         break
     
     os.system("cls")
-    
-print(f'''
-Valor Total da compra: {valorTotal}
+
+print('\n== Conta ==')
+
+for i in range(pedidos):
+    print(f'''{i+1}° pedido: {pedido_Nomes[i]}  
+Valor: {pedido_Valores[i]}  
 ''')
+print(f'Valor Total da compra: {sum(pedido_Valores)}')
