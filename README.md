@@ -19,6 +19,12 @@ ENTER
 ```
 pip install streamlit
 ```
+5. Agora pode criar seus códigos, mas para executar com Streamlit execute o comando:
+streamlit run arquivo.py
+
+6. Para interromper a execução do Streamlit use as teclas:
+CTRL C
+
 ## Início da aula.
 
 1) Fazer login no GitHub no navegador de internet
