@@ -1,14 +1,14 @@
 import os
 os.system("cls")
 
-produto = 0
-
-def tabuada(numero, produto):
+def posi_nega(numero):
     os.system("cls")
-    print('== Tabuada ==')
-    for i in range(1,11):
-        produto = numero * i
-        print(f'{numero} x {i} = {produto}')
+    if numero < 0:
+        print(f'O número {numero} é positivo!')
+    elif numero > 0:
+        print(f'O número é 0!')
+    else:
+        print(f'O número {numero} é negativo!')
 
 numero = int(input('Informe um número: '))
-tabuada(numero, produto)
+posi_nega(numero)
