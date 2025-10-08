@@ -1,6 +1,6 @@
 # Instruções
 
-##Streamlit.
+# Streamlit.
 I
 NSTRUÇÕES PARA USAR STREAMLIT
 1. Abra VSCode na pasta Downloads
